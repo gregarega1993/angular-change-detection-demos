@@ -1,0 +1,2 @@
+This example uses OnPush change detection strategy in e1c1 and e1c2 components.
+If we click on the Change user button and change the name property we will see that e1c2 doesn't update. It's because we haven't change the reference. If we click on Change user reference button we can see that the text updated because change decetion was triggered as the reference changed.

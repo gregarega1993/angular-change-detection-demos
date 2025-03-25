@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Example1Component } from "./example-1/example-1.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [Example1Component],
+  template: `<app-example-1 />`,
+  styles: ``,
 })
-export class AppComponent {
-  title = 'angular-change-detection-demos';
-}
+export class AppComponent {}
